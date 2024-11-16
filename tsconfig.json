@@ -1,0 +1,10 @@
+{
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES6",
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  }
+}
