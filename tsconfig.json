@@ -5,6 +5,10 @@
     "outDir": "build",
     "target": "ES6",
     "moduleResolution": "node",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "lib": ["ES6"],
+    "strict": true,
+    // "allowJs": true,
+    "module": "CommonJS"
   }
 }
